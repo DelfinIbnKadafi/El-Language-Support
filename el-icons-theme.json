@@ -1,0 +1,11 @@
+{
+  "iconDefinitions": {
+    "_ell": {
+      "iconPath": "../images/logo.svg"
+    }
+  },
+  "file": "_ell",
+  "fileExtensions": {
+    "ell": "_ell"
+  }
+}

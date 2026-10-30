@@ -18,6 +18,13 @@
     "url": "https://github.com/DelfinIbnKadafi/El-Language-Support"
   },
   "contributes": {
+    "iconThemes": [ 
+      {
+        "id": "el-language-icons",
+        "label": "El Language Icons",
+        "path": "./themes/el-icons-theme.json"
+      }
+    ],  
     "languages": [
       {
         "id": "ellang",
