@@ -1,0 +1,44 @@
+
+{
+  "name": "el-language-support",
+  "displayName": "El Language Support",
+  "description": "Syntax highlighting and indentation support for El Language.",
+  "version": "0.1.0",
+  "publisher": "DelfinIbnKadafi",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DelfinIbnKadafi/El-Language-Support"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "ellang",
+        "aliases": ["El Language", "ellang"],
+        "extensions": [".ell"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ellang",
+        "scopeName": "source.ellang",
+        "path": "./syntaxes/el.tmlanguage.json"
+      }
+    ],
+    "configurationDefaults": {
+      "[ellang]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
+      }
+    }
+  }
+}
